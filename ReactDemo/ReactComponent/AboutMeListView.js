@@ -1,21 +1,21 @@
 import React from 'react';
 import { AppRegistry, Text, View, ListView } from 'react-native';
 
-var AboutMeListView = React.createClass ({
-  getInitialState: function() {
+export default class AboutMeListView extends React.Component {
+  constructor(props) {
+    super(props);
     var ds = new ListView.DataSource({rowHasChanged:(r1,r2) => r1 !== r2});
-    return {
-      dataSource: ds.cloneWithRows(['', '分享App给小伙伴', '欢迎页', '服务条款'])
-    };
-  },
+    this.dataSource = ds.cloneWithRows(['', '分享App给小伙伴', '欢迎页', '服务条款']);
+  }
+
   render() {
     return (
       <View>
       <ListView
-      dataSource={this.status.dataSource}
+      dataSource={this.dataSource}
       renderRow={(rowData) => <Text>{rowData}</Text>}
       />
       </View>
     );
   }
-});
+}

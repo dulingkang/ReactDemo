@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ADFFA4F1D2526E6001E7840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFFA4E1D2526E6001E7840 /* Images.xcassets */; };
 		2AECDD431D1CDBDC00DC0956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD421D1CDBDC00DC0956 /* main.m */; };
 		2AECDD461D1CDBDC00DC0956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD451D1CDBDC00DC0956 /* AppDelegate.m */; };
 		2AECDD491D1CDBDC00DC0956 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD481D1CDBDC00DC0956 /* ViewController.m */; };
 		2AECDD4C1D1CDBDC00DC0956 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AECDD4A1D1CDBDC00DC0956 /* Main.storyboard */; };
-		2AECDD4E1D1CDBDC00DC0956 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AECDD4D1D1CDBDC00DC0956 /* Assets.xcassets */; };
 		2AECDD511D1CDBDC00DC0956 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AECDD4F1D1CDBDC00DC0956 /* LaunchScreen.storyboard */; };
 		2AECDD5C1D1CDBDD00DC0956 /* ReactDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD5B1D1CDBDD00DC0956 /* ReactDemoTests.m */; };
 		3D3ACC39373E3746B71DF9AD /* libPods-ReactDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6981024440033F469D08991 /* libPods-ReactDemo.a */; };
@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2ADFFA4E1D2526E6001E7840 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AECDD3E1D1CDBDC00DC0956 /* ReactDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AECDD421D1CDBDC00DC0956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AECDD441D1CDBDC00DC0956 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -36,7 +37,6 @@
 		2AECDD471D1CDBDC00DC0956 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		2AECDD481D1CDBDC00DC0956 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AECDD4B1D1CDBDC00DC0956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2AECDD4D1D1CDBDC00DC0956 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AECDD501D1CDBDC00DC0956 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AECDD521D1CDBDC00DC0956 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AECDD571D1CDBDD00DC0956 /* ReactDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,7 +107,7 @@
 				2AECDD471D1CDBDC00DC0956 /* ViewController.h */,
 				2AECDD481D1CDBDC00DC0956 /* ViewController.m */,
 				2AECDD4A1D1CDBDC00DC0956 /* Main.storyboard */,
-				2AECDD4D1D1CDBDC00DC0956 /* Assets.xcassets */,
+				2ADFFA4E1D2526E6001E7840 /* Images.xcassets */,
 				2AECDD4F1D1CDBDC00DC0956 /* LaunchScreen.storyboard */,
 				2AECDD521D1CDBDC00DC0956 /* Info.plist */,
 				2AECDD411D1CDBDC00DC0956 /* Supporting Files */,
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AECDD511D1CDBDC00DC0956 /* LaunchScreen.storyboard in Resources */,
-				2AECDD4E1D1CDBDC00DC0956 /* Assets.xcassets in Resources */,
+				2ADFFA4F1D2526E6001E7840 /* Images.xcassets in Resources */,
 				2AECDD4C1D1CDBDC00DC0956 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
