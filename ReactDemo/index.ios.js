@@ -78,16 +78,16 @@ class MainView extends Component {
       <ScrollView>
         <Swiper height={150} showsButtons={false} autoplay={true}
           activeDot={<View style={{backgroundColor: 'rgba(255,255,255,0.8)', width: 8, height: 8, borderRadius: 4, marginLeft: 3, marginRight: 3, marginTop: 3, marginBottom: 3,}} />}>
-          <TouchableHighlight onPress={()=> onThis.jumpToDay(11)}>
+          <TouchableHighlight onPress={()=> onThis.jumpToDay(1)}>
             <View style={styles.slide}>
               <Image style={styles.image} source={{uri:'day1'}}></Image>
-              <Text style={styles.slideText}>Day12: Charts</Text>
+              <Text style={styles.slideText}>Day1: Watch</Text>
             </View>
           </TouchableHighlight>
-          <TouchableHighlight onPress={()=> onThis.jumpToDay(10)}>
+          <TouchableHighlight onPress={()=> onThis.jumpToDay(2)}>
             <View style={styles.slide}>
               <Image style={styles.image} source={{uri:'day2'}}></Image>
-              <Text style={styles.slideText}>Day11: OpenGL</Text>
+              <Text style={styles.slideText}>Day2: Test</Text>
             </View>
           </TouchableHighlight>
         </Swiper>
