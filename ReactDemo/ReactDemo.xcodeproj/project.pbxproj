@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A43AFB91D2CB64000E4128B /* DMAboutMeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A43AFB81D2CB64000E4128B /* DMAboutMeManager.m */; };
 		2ADFFA4F1D2526E6001E7840 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2ADFFA4E1D2526E6001E7840 /* Images.xcassets */; };
 		2AECDD431D1CDBDC00DC0956 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD421D1CDBDC00DC0956 /* main.m */; };
 		2AECDD461D1CDBDC00DC0956 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AECDD451D1CDBDC00DC0956 /* AppDelegate.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A43AFB71D2CB64000E4128B /* DMAboutMeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMAboutMeManager.h; sourceTree = "<group>"; };
+		2A43AFB81D2CB64000E4128B /* DMAboutMeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMAboutMeManager.m; sourceTree = "<group>"; };
 		2ADFFA4E1D2526E6001E7840 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2AECDD3E1D1CDBDC00DC0956 /* ReactDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AECDD421D1CDBDC00DC0956 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				2AECDD4F1D1CDBDC00DC0956 /* LaunchScreen.storyboard */,
 				2AECDD521D1CDBDC00DC0956 /* Info.plist */,
 				2AECDD411D1CDBDC00DC0956 /* Supporting Files */,
+				2A43AFB71D2CB64000E4128B /* DMAboutMeManager.h */,
+				2A43AFB81D2CB64000E4128B /* DMAboutMeManager.m */,
 			);
 			path = ReactDemo;
 			sourceTree = "<group>";
@@ -344,6 +349,7 @@
 			files = (
 				2AECDD491D1CDBDC00DC0956 /* ViewController.m in Sources */,
 				2AECDD461D1CDBDC00DC0956 /* AppDelegate.m in Sources */,
+				2A43AFB91D2CB64000E4128B /* DMAboutMeManager.m in Sources */,
 				2AECDD431D1CDBDC00DC0956 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

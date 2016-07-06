@@ -25,12 +25,12 @@ import Swiper from 'react-native-swiper';
 import Util from './ReactComponent/utils';
 import Day1 from './ReactComponent/day1';
 import Day2 from './ReactComponent/day2';
+import Day3 from './ReactComponent/day3';
 
 
 class MainView extends Component {
   constructor() {
     super();
-    this.jumpToDay = this.jumpToDay.bind(this);
     this.state = {
       days: [{
         key: 0,
@@ -51,15 +51,25 @@ class MainView extends Component {
         size: 48,
         color: "#ff856c",
         hideNav: false
+      },
+      {
+        key: 2,
+        title: "关于多点",
+        component: Day3,
+        isFA: false,
+        icon: "ios-people",
+        size: 48,
+        color: "#ff856c",
+        hideNav: false
       }]
     }
   }
-  jumpToDay(index){
+  jumpToDay = (index) =>{
     this.props.navigator.push({
       title: this.state.days[index].title,
       component: this.state.days[index].component,
       navigationBarHidden: this.state.days[index].hideNav
-})
+    })
   }
   render() {
     var onThis = this;
